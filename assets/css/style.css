@@ -1,0 +1,20 @@
+html, body{
+	width: 100vw;
+	margin: 0;
+	border: 0;
+	font-family: 'Jost', sans-serif;
+	overflow-x: hidden;
+}
+ a:link { text-decoration: none; color: black} 
+ a:visited { text-decoration: none; color: black} 
+ a:active { text-decoration: none; color: black}
+ a:hover {text-decoration: none; color: black} 
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+}
+
+
+.calendar{
+	text-align: center;
+	background-color: #fae8da;
+}
