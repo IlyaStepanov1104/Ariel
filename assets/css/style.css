@@ -5,10 +5,10 @@ html, body{
 	font-family: 'Jost', sans-serif;
 	overflow-x: hidden;
 }
- a:link { text-decoration: none; color: black} 
- a:visited { text-decoration: none; color: black} 
- a:active { text-decoration: none; color: black}
- a:hover {text-decoration: none; color: black} 
+a:link {text-decoration: none; color: black} 
+a:visited {text-decoration: none; color: black} 
+a:active {text-decoration: none; color: black}
+a:hover {text-decoration: none; color: black} 
 h1, h2, h3, h4, h5, h6{
 	margin: 0;
 }
@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6{
 
 .day{
 	color: #000;
-	font-size: 3em;
+	font-size: 100%;
 	font-weight: 600;
 	background: transparent;
 	border: 5px solid transparent;
