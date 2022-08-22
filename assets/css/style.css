@@ -5,10 +5,10 @@ html, body{
 	font-family: 'Jost', sans-serif;
 	overflow-x: hidden;
 }
-a:link {text-decoration: none; color: black} 
-a:visited {text-decoration: none; color: black} 
-a:active {text-decoration: none; color: black}
-a:hover {text-decoration: none; color: black} 
+ a:link { text-decoration: none; color: black} 
+ a:visited { text-decoration: none; color: black} 
+ a:active { text-decoration: none; color: black}
+ a:hover {text-decoration: none; color: black} 
 h1, h2, h3, h4, h5, h6{
 	margin: 0;
 }
@@ -45,9 +45,9 @@ h1, h2, h3, h4, h5, h6{
 	background: transparent;
 	border: 5px solid transparent;
 	border-radius: 50%;
-	width: 7vw;
-	height: 7vw;
-	margin: 0 2.5vw 0 2.5vw;
+	width: 100%;
+	height: 100%;
+	margin: 0 10px 0 10px;
 }
 
 .day:focus{
