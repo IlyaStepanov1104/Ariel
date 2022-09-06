@@ -1,0 +1,138 @@
+html, body{
+	width: 100vw;
+	margin: 0;
+	border: 0;
+	font-family: 'Jost', sans-serif;
+	overflow-x: hidden;
+}
+ a:link { text-decoration: none; color: black} 
+ a:visited { text-decoration: none; color: black} 
+ a:active { text-decoration: none; color: black}
+ a:hover {text-decoration: none; color: black} 
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+}
+
+
+.calendar{
+	text-align: center;
+	background-color: #fae8da;
+	padding: 2vw 5vw 2vw 5vw;
+}
+
+.calendar-header{
+	font-size: 3em;
+	font-weight: 600;
+}
+
+.month-name{
+	font-size: 2em;
+	font-weight: 600;
+	margin: 1.5vw;
+}
+
+.week{
+	width: 90vw;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.day{
+	color: #000;
+	font-size: 2em;
+	font-weight: 600;
+	background: transparent;
+	border: 5px solid transparent;
+	border-radius: 50%;
+	width: 5vw;
+	height: 5vw;
+	margin: 1vw 2vw 1vw 2vw;
+}
+
+.day:focus{
+	border-color: #e75480;
+}
+
+.text{
+	display: none;
+}
+
+.on{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	margin-bottom: 2vw;
+}
+
+
+.checkbox-btn {
+	display: inline-block;
+	margin: 0 5px 0 0;
+	user-select: none;
+	position: relative;
+}
+.checkbox-btn input[type=checkbox] {
+	z-index: -1;
+	opacity: 0;
+	display: block;
+	width: 0;
+	height: 0;
+}
+.checkbox-btn span {
+	line-height: 6vw;
+	display: inline-block;
+	cursor: pointer;
+	border: 5px solid #000;
+	border-radius: 30vw;
+	transition: background 0.2s ease;
+	width: 20vw;
+	height: 6vw;
+	font-size: 5em;
+}
+ 
+.checkbox-btn input[type=checkbox]:checked + span {
+	background: #e75480;
+	color: #d6d6d6;
+}
+
+span:hover {
+	background: rgba(231, 84, 128, 0.25);
+}
+ 
+/* Disabled */
+.checkbox-btn input[type=checkbox]:disabled + span {
+	color: #ccbdaa;
+	border-color: #ccbdaa;
+	cursor: default;
+}
+.checkbox-btn input[type=checkbox]:disabled + span:hover {
+	background: transparent;
+}
+
+.cost{
+	margin: 10vw 5px 0 0;
+	user-select: none;
+}
+.cost input[type=submit] {
+	z-index: -1;
+	opacity: 0;
+	height: 0;
+}
+.cost span {
+	display: block;
+	width: 0;
+	line-height: 6vw;
+	display: inline-block;
+	cursor: pointer;
+	border: 5px solid #000;
+	border-radius: 30vw;
+	transition: background 0.2s ease;
+	width: 30vw;
+	height: 6vw;
+	font-size: 2em;
+}
+
+#cost{
+	margin-top: 20px;
+}
