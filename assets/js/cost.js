@@ -57,6 +57,6 @@ function cost(){
 			tag.innerHTML += `<h3 style="font-weight: 500">${choose[i][0]}.2022 в ${choose[i][1]}</h3>`;
 		}
 		tag.innerHTML += `<h2>Общая сумма - ${sum}&#8381</h2>`
-		tag.innerHTML += '<label class="cost"><input type="submit" onclick="window.open(\'..\/..\/reserve.php?sum=' + String(sum) + 'choose=' + chooseString(choose) + '\')"><span>Забронировать</span></label>'
+		tag.innerHTML += '<label class="cost"><input type="submit" onclick="window.open(\'reserve.php?sum=' + String(sum) + '&choose=' + chooseString(choose) + '\')"><span>Забронировать</span></label>'
 	}
 }
