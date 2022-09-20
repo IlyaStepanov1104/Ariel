@@ -14,6 +14,8 @@
             $message .= $item."\n";
         }
         mail('ilyahtml@gmail.com', 'RESERVE', wordwrap($message, 70), $headers);
-        fclose($file);
-	}
 
+        fclose($file);
+        $new_url = 'yes.html';
+        header('Location: '.$new_url);
+	}
